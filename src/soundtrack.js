@@ -91,6 +91,7 @@ function openSelect() {
 /* 📋📋📋📋Menu Music📋📋📋📋 */
 var musicIndex = 0;
 var musicList = [
+  "audios/bnd_trailer.mp3",
   "audios/Extras Menu - Sonic Mega Collection [OST].mp3",
   "audios/File Select - Sonic the Hedgehog 3 & Knuckles.mp3",
   "audios/Sonic Mega Collection Main Menu Theme.mp3",
@@ -168,7 +169,9 @@ function selectGameOverMusic(index) {
 var storedGameOverIndex = localStorage.getItem("gameoverMusicIndex");
 
 /* 🎶🎶🎶🎶Musics🎶🎶🎶🎶 */
-var Menu = new Audio("audios/Extras Menu - Sonic Mega Collection [OST].mp3");
+//var Menu = new Audio("audios/Extras Menu - Sonic Mega Collection [OST].mp3");
+// 20240106 trailer로 변경!
+var Menu = new Audio("audios/bnd_trailer.mp3");
 Menu.volume = 0.7;
 
 // var GameOver = new Audio("audios/Sonic Advance 1 2 and 3-Game Over.mp3");

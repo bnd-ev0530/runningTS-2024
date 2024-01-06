@@ -97,7 +97,9 @@ window.addEventListener("DOMContentLoaded", function (event) {
     music.loop = true;
     music.play();
   } else {
-    Menu = new Audio("audios/Extras Menu - Sonic Mega Collection [OST].mp3");
+    // Menu = new Audio("audios/Extras Menu - Sonic Mega Collection [OST].mp3");
+    // 20240106 trailer로 변경!
+    Menu = new Audio("audios/bnd_trailer.mp3");
     Menu.volume = 0.7;
     Menu.loop = true;
     Menu.play();
