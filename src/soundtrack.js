@@ -145,6 +145,7 @@ var storedGameIndex = localStorage.getItem("gameMusicIndex");
 /* 👾👾👾👾Game Over Music👾👾👾👾 */
 var gameoverMusicIndex = 0;
 var gameoverMusicList = [
+  "audios/bnd_trailer.mp3",
   "audios/Sonic Advance 1 2 and 3-Game Over.mp3",
   "audios/Sonic CD - Game Over Music ~ Japan.mp3",
   "audios/Sonic CD - Game Over Music ~ USA.mp3",
@@ -170,7 +171,8 @@ var storedGameOverIndex = localStorage.getItem("gameoverMusicIndex");
 var Menu = new Audio("audios/Extras Menu - Sonic Mega Collection [OST].mp3");
 Menu.volume = 0.7;
 
-var GameOver = new Audio("audios/Sonic Advance 1 2 and 3-Game Over.mp3");
+// var GameOver = new Audio("audios/Sonic Advance 1 2 and 3-Game Over.mp3");
+var GameOver = new Audio("audios/bnd_trailer.mp3");
 GameOver.volume = 0.6;
 
 var Game = new Audio(

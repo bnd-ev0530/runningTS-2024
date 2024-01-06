@@ -123,7 +123,8 @@ window.addEventListener("DOMContentLoaded", function (event) {
     gameoverMusic.src = gameoverMusicList[gameoverMusicIndex];
     gameoverMusic.loop = true;
   } else {
-    GameOver = new Audio("audios/Sonic Advance 1 2 and 3-Game Over.mp3");
+    // GameOver = new Audio("audios/Sonic Advance 1 2 and 3-Game Over.mp3");
+    GameOver = new Audio("audios/bnd_trailer.mp3");
     GameOver.volume = 0.6;
   }
 
