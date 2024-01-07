@@ -232,9 +232,14 @@
           <a id="earned-points"> Score: </a><br />
           <a id="highscore"> HighScore: </a><br />
           <a id="newhighscore" class="hidden"> NEW HIGHSCORE! </a><br />
-          <button class="button" id="restart" onclick="location.reload()">
-            <i class="fa fa-undo"></i>
-          </button>
+          <div class="btns">
+            <button class="button" id="restart" onclick="location.reload()">
+              <i class="fa fa-undo"></i>
+            </button>
+            <button class="button" id="share" onclick="shareOnTwitter()">
+              <i class="fa fa-share"></i>
+            </button>
+          </div>
           <img
             src="sprites/gameover-sonic.gif"
             title="Continue?"
