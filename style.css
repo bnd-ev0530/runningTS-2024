@@ -922,7 +922,7 @@ footer p {
 
   .area {
     font-size: 2.5vh;
-    /* margin-bottom: 125px; */
+    margin-bottom: 0px;
     margin-top: 0px;
   }
 
