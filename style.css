@@ -853,9 +853,10 @@ footer p {
 }
 
 .muteBtn {
-  top: 10px;
   position: fixed;
-  right: 10px;
+  top: 30px;
+  right: 30px;
+  padding: 0 !important;
 }
 
 .muteBtn img {
@@ -972,6 +973,10 @@ footer p {
 
   #charName {
     width: 50%;
+  }
+  .muteBtn {
+    top: 10vw;
+    right: 5vw;
   }
   .muteBtn img {
     width: 16px;
