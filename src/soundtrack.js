@@ -5,7 +5,7 @@ function muteMusic() {
   localStorage.removeItem("unmuted", false);
   const musics = [Menu, GameOver, Game];
 
-  muted.innerHTML = '<i class="fa fa-volume-up"></i>';
+  muted.innerHTML = `<img src="images/volume-up-solid.svg"/>`;
   musics.forEach(function (e) {
     e.muted = true;
   });
@@ -19,7 +19,7 @@ function unmuteMusic() {
   localStorage.removeItem("muted", false);
   const musics = [Menu, GameOver, Game];
 
-  muted.innerHTML = `<i class="fas fa-volume-mute"></i>`;
+  muted.innerHTML = `<img src="images/volume-mute-solid.svg"/>`;
   musics.forEach(function (e) {
     e.muted = false;
   });

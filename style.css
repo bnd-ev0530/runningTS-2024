@@ -856,8 +856,9 @@ footer p {
   font-size: 18px !important;
   top: 0;
   position: fixed;
-  left: 0;
+  right: 0;
   padding: 12px !important;
+  filter: brightness(0) invert(1) grayscale(1) contrast(1.5);
 }
 
 @keyframes rotate {
