@@ -852,6 +852,14 @@ footer p {
   width: 100%;
 }
 
+.muteBtn {
+  font-size: 18px !important;
+  bottom: 0;
+  position: fixed;
+  left: 0;
+  padding: 12px !important;
+}
+
 @keyframes rotate {
   50% {
     -ms-transform: rotateY(0.5turn);
@@ -961,6 +969,10 @@ footer p {
 
   #charName {
     width: 50%;
+  }
+  .muteBtn {
+    font-size: 14px !important;
+    padding: 10px !important;
   }
 }
 
