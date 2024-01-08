@@ -853,12 +853,14 @@ footer p {
 }
 
 .muteBtn {
-  font-size: 18px !important;
   top: 10px;
   position: fixed;
   right: 10px;
-  padding: 12px !important;
-  filter: brightness(0) invert(1) grayscale(1) contrast(1.5);
+}
+
+.muteBtn img {
+  width: 20px;
+  height: 20px;
 }
 
 @keyframes rotate {
@@ -971,9 +973,9 @@ footer p {
   #charName {
     width: 50%;
   }
-  .muteBtn {
-    font-size: 14px !important;
-    padding: 10px !important;
+  .muteBtn img {
+    width: 16px;
+    height: 16px;
   }
 }
 
