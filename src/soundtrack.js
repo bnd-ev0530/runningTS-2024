@@ -5,7 +5,7 @@ function muteMusic() {
   localStorage.removeItem("unmuted", false);
   const musics = [Menu, GameOver, Game];
 
-  muted.innerHTML = `<img src="images/volume-up-solid.png"/>`;
+  muted.innerHTML = `Sound Bgm <img src="images/volume-up-solid.png"/>`;
   musics.forEach(function (e) {
     e.muted = true;
   });
@@ -19,7 +19,7 @@ function unmuteMusic() {
   localStorage.removeItem("muted", false);
   const musics = [Menu, GameOver, Game];
 
-  muted.innerHTML = `<img src="images/volume-mute-solid.png"/>`;
+  muted.innerHTML = `Sound Bgm <img src="images/volume-mute-solid.png"/>`;
   musics.forEach(function (e) {
     e.muted = false;
   });
@@ -47,7 +47,7 @@ function muteSound() {
     SonicTeam,
   ];
 
-  muted.innerHTML = 'Mute SoundEffects <i class="fa fa-times"></i>';
+  muted.innerHTML = 'Sound Effects <img src="images/volume-up-solid.png"/>';
   sounds.forEach(function (e) {
     e.muted = true;
   });
@@ -74,7 +74,7 @@ function unmuteSound() {
     SonicTeam,
   ];
 
-  muted.innerHTML = "Mute SoundEffects";
+  muted.innerHTML = `Sound Effects <img src="images/volume-mute-solid.png"/>`;
   sounds.forEach(function (e) {
     e.muted = false;
   });

@@ -73,9 +73,9 @@
         <!--<a class="option muteBtn" onclick="muteMusic()" id="muteMusic"
           ><img src="images/volume-mute-solid.png"
         /></a>-->
-        <a class="option" onclick="muteSound()" id="muteSound"
+        <!-- <a class="option" onclick="muteSound()" id="muteSound"
           ><p>Mute SoundEffects</p></a
-        >
+        > -->
         <div class="title"><p>Game Settings</p></div>
         <a class="option" onclick="disable(), check()" id="enable-txt"
           ><p>Disable Background Objects</p></a
@@ -168,9 +168,13 @@
       </div>
     </header>
     <div class="subheader"></div>
-    <a class="option muteBtn" onclick="muteMusic()" id="muteMusic"
-      ><img src="images/volume-mute-solid.png"
-    /></a>
+    <a class="option muteBtn muteBgm" onclick="muteMusic()" id="muteMusic">
+      <!-- <img src="images/volume-mute-solid.png"/> -->
+      <p>Sound Bgm <img src="images/volume-mute-solid.png" /></p>
+    </a>
+    <a class="option muteBtn muteEffect" onclick="muteSound()" id="muteSound"
+      ><p>Sound Effects <img src="images/volume-mute-solid.png" /></p
+    ></a>
     <div class="area">
       <p id="play-txt" class="hid">
         Press any key or click the button to start!

@@ -853,19 +853,23 @@ footer p {
 }
 
 .muteBtn {
-  display: block;
+  display: flex;
+  gap: 10px;
   position: fixed;
   top: 30px;
   right: 30px;
   padding: 0;
   cursor: pointer;
+  color: #fff;
 }
 
 .muteBtn img {
   width: 20px;
   height: 20px;
 }
-
+.muteEffect {
+  top: 60px;
+}
 @keyframes rotate {
   50% {
     -ms-transform: rotateY(0.5turn);
@@ -977,12 +981,17 @@ footer p {
     width: 50%;
   }
   .muteBtn {
-    top: 5vw !important;
-    right: 5vw !important;
+    top: initial;
+    bottom: 13vw;
+    right: 5vw;
   }
   .muteBtn img {
     width: 20px;
     height: 20px;
+  }
+  .muteEffect {
+    top: initial;
+    bottom: 5vw;
   }
 }
 
