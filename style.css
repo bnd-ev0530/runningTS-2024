@@ -853,12 +853,12 @@ footer p {
 }
 
 .muteBtn {
-  all: unset !important;
-  display: block !important;
-  position: fixed !important;
-  top: 30px !important;
-  right: 30px !important;
-  padding: 0 !important;
+  display: block;
+  position: fixed;
+  top: 30px;
+  right: 30px;
+  padding: 0;
+  cursor: pointer;
 }
 
 .muteBtn img {
