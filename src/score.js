@@ -60,7 +60,7 @@ function returnData(input) {
 function shareOnTwitter() {
   const shareUrl = "https://twitter.com/intent/tweet";
   const text = `🖤 ts runner 💛\n Score : ${points}\n #runningTS`;
-  const url = "https://bnd-ev0530.github.io/runningTS-2024/";
+  const url = "http://devilhunter.club/";
   const fullUrl = `${shareUrl}?text=${encodeURIComponent(
     text
   )}&url=${encodeURIComponent(url)}`;
